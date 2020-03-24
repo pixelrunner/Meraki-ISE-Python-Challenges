@@ -50,3 +50,40 @@ Homebrew provides access to many standard applications and packages, but isn't o
 ```
  brew cask list
 ```
+
+---
+
+# Python(3.x)
+
+Open a Terminal window and use brew to install Python 3.x.
+
+```
+brew install python
+```
+
+You should see output like so:
+
+```
+ # Sample Final Output
+ Python has been installed as
+   /usr/local/bin/python3
+
+ Unversioned symlinks `python`, `python-config`, `pip` etc. pointing to
+ `python3`, `python3-config`, `pip3` etc., respectively, have been installed into
+   /usr/local/opt/python/libexec/bin
+
+ If you need Homebrew's Python 2.7 run
+   brew install python@2
+
+ Pip, setuptools, and wheel have been installed. To update them run
+   pip3 install --upgrade pip setuptools wheel
+
+ You can install Python packages with
+   pip3 install <package>
+ They will install into the site-package directory
+   /usr/local/lib/python3.6/site-packages
+
+ See: https://docs.brew.sh/Homebrew-and-Python
+ ==> Summary
+ (brew)  /usr/local/Cellar/python/3.6.5: 4,705 files, 99.5MB
+ ```
