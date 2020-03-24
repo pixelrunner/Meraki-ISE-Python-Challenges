@@ -4,8 +4,8 @@
   ```
   xcode-select --install
   ```
-  This command opens an installation dialog box if needed, or if it's already installed, you see xcode-select: error: 
-  `command line tools are already installed, use "Software Update" to install updates` in your Terminal window. Complete the XCode update if needed.
+  This command opens an installation dialog box if needed, or if it's already installed, you see `xcode-select: error: 
+  command line tools are already installed, use "Software Update" to install updates` in your Terminal window. Complete the XCode update if needed.
 
 ---
 
