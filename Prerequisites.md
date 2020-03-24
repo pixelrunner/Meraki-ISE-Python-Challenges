@@ -1,4 +1,4 @@
-#X-Code
+# X-Code
   1. Open Terminal
   2. Make sure the XCode Developer tools are installed:
   ```
