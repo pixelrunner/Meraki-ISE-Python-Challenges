@@ -147,8 +147,8 @@ You will need to install an IDE of your choice that supports python. If you don'
 
 ## PyCharm
 The most used IDE for python is PyCharm.
-[jetbrains.com/pycharm/](https://www.jetbrains.com/pycharm/)
+[jetbrains.com/pycharm](https://www.jetbrains.com/pycharm/)
 
 ## Visual Studio Code
 This IDE is made by Microsoft. It's basic, but does the job.
-[code.visualstudio.com/](https://code.visualstudio.com/)
+[code.visualstudio.com](https://code.visualstudio.com/)
