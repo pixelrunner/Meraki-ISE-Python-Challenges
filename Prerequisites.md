@@ -87,3 +87,55 @@ You should see output like so:
  ==> Summary
  (brew)  /usr/local/Cellar/python/3.6.5: 4,705 files, 99.5MB
  ```
+# Node
+Node.js is a Javascript runtime enviropnment used for prerendering Javascript on the server rather than in the browser.
+
+## Installation
+Open a terminal and use brew to install Node.
+
+```
+ brew install node
+ ```
+ 
+ ```
+ This formula is keg-only, which means it was not symlinked into /usr/local,
+ because macOS provides libicucore.dylib (but nothing else).
+
+ If you need to have this software first in your PATH run:
+   echo 'export PATH="/usr/local/opt/icu4c/bin:$PATH"' >> ~/.bash_profile
+   echo 'export PATH="/usr/local/opt/icu4c/sbin:$PATH"' >> ~/.bash_profile
+
+ For compilers to find this software you may need to set:
+     LDFLAGS:  -L/usr/local/opt/icu4c/lib
+     CPPFLAGS: -I/usr/local/opt/icu4c/include
+     
+ ==> Summary
+ (brew)  /usr/local/Cellar/icu4c/61.1: 249 files, 67.2MB
+ ==> Installing node
+ ==> Downloading https://homebrew.bintray.com/bottles/node-10.9.0.high_sierra.bottle.tar.gz
+ ######################################################################## 100.0%
+ ==> Pouring node-10.9.0.high_sierra.bottle.tar.gz
+ ==> Caveats
+ Bash completion has been installed to:
+   /usr/local/etc/bash_completion.d
+ ==> Summary
+ (brew)  /usr/local/Cellar/node/10.9.0: 5,125 files, 49.7MB
+ ```
+ 
+Note: If you already have Node installed, you will need to run the following command instead: 
+```
+brew upgrade node.
+```
+
+## Verification
+1. Open a Terminal window.
+2. Check the installed Node version.
+```
+ node -v
+```
+
+This shows the output you see in return:
+```
+ # Expected Output
+ v10.9.0
+``` 
