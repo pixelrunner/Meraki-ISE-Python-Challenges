@@ -139,3 +139,16 @@ This shows the output you see in return:
  # Expected Output
  v10.9.0
 ``` 
+
+# IDE
+An integrated development environment (IDE) is a software application that provides comprehensive facilities to computer programmers for software development.
+
+You will need to install an IDE of your choice that supports python. If you don't have a preference, try one of the following.
+
+## PyCharm
+The most used IDE for python is PyCharm.
+[jetbrains.com/pycharm/](https://www.jetbrains.com/pycharm/)
+
+## Visual Studio Code
+This IDE is made by Microsoft. It's basic, but does the job.
+[code.visualstudio.com/](https://code.visualstudio.com/)
