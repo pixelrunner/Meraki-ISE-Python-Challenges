@@ -1,3 +1,16 @@
+# Prerequisites to install
+
+<!--ts-->
+   * [X-Code](#X-Code)
+   * [Homebrew](#Homebrew)
+   * [Python(3.x)](#Python(3.x))
+   * [Node](#Node)
+   * [IDE](#IDE)
+<!--te-->
+
+---
+---
+
 # X-Code
   1. Open Terminal
   2. Make sure the XCode Developer tools are installed:
