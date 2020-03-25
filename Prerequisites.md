@@ -124,7 +124,7 @@ Open a terminal and use brew to install Node.
  
 Note: If you already have Node installed, you will need to run the following command instead: 
 ```
-brew upgrade node.
+brew upgrade node
 ```
 
 ## Verification
