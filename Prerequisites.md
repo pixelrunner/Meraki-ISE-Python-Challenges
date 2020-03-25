@@ -3,7 +3,7 @@
 <!--ts-->
    * [X-Code](#X-Code)
    * [Homebrew](#Homebrew)
-   * [Python(3.x)](#Python(3.x))
+   * [Python(3.x)](#Python%283.x%29)
    * [Node](#Node)
    * [IDE](#IDE)
 <!--te-->
