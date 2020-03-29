@@ -1,4 +1,4 @@
-# Part 1
+# Challenge 1: Rocket Fuel
 You are on a spacecraft and you're waiting for launch.
 
 The team at mission control are going through the pre-launch checks.
