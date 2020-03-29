@@ -5,7 +5,7 @@ The team at mission control are going through the pre-launch checks.
 
 As the team are running through the Go/No-Go checks, everything is going smoothly until the "Fuel Counter-Upper" person! He hasn't done his job and determined the amount of fuel required yet.
 
-Fuel required to launch a given module is based on its mass. Specifically, to find the fuel required for a module, take its mass, divide by three, round down, and subtract 2.
+Fuel required to launch a given module is based on its mass. Specifically, **to find the fuel required for a module, take its mass, divide by three, round down, and subtract 2**.
 
 For example:
 
@@ -20,7 +20,7 @@ What is the sum of the fuel requirements for all of the modules on your spacecra
 
 The module masses can be found [here](https://github.com/pixelrunner/Meraki-ISE-Python-Challenges/blob/master/Challenge_1/Module_masses.txt).
 
-Upload your script(s)to github, then move on to part 2.
+Upload your script(s)to github, and send your answer to John on teams (don't put it in the team chat)! Then move on to part 2.
 
 -----
 
@@ -29,9 +29,9 @@ OK, so you've worked out the amount of fuel you need and that has been added to 
 
 The Go/No-Go checks can continue, the person in charge of the "Rocket Equation Double-Checker" stops the launch sequence. Apparently, you forgot to include additional fuel for the fuel you just added.
 
-Fuel itself requires fuel just like a module - take its mass, divide by three, round down, and subtract 2. However, that fuel also requires fuel, and that fuel requires fuel, and so on. Any mass that would require negative fuel should instead be treated as if it requires zero fuel; the remaining mass, if any, is outside the scope of this calculation.
+Fuel itself requires fuel just like a module - take its mass, divide by three, round down, and subtract 2. However, **that fuel also requires fuel, and that fuel requires fuel, and so on**. Any mass that would require negative fuel should instead be treated as if it requires zero fuel; the remaining mass, if any, is outside the scope of this calculation.
 
-So, for each module mass, calculate its fuel and add it to the total. Then, treat the fuel amount you just calculated as the input mass and repeat the process, continuing until a fuel requirement is zero or negative. 
+**So, for each module mass, calculate its fuel and add it to the total. Then, treat the fuel amount you just calculated as the input mass and repeat the process, continuing until a fuel requirement is zero or negative.**
 
 For example:
 
@@ -41,4 +41,4 @@ For example:
 
 What is the sum of the fuel requirements for all of the modules on your spacecraft when also taking into account the mass of the added fuel? (Calculate the fuel requirements for each module separately, then add them all up at the end.)
 
-Upload your script(s)to github, and relax; safe in the knowledge you now have enough fuel to take off.
+Upload your script(s)to github (don't worry if it's part of the "part 1" script), and relax; safe in the knowledge you now have enough fuel to take off.
