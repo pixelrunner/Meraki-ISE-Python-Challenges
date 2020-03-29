@@ -1,4 +1,4 @@
-#Part 1
+# Part 1
 You are on a spacecraft and you're waiting for launch.
 
 The team at mission control are going through the pre-launch checks.
@@ -24,7 +24,7 @@ Upload your script(s)to github, then move on to part 2.
 
 ===
 
-#Part 2
+# Part 2
 OK, so you've worked out the amount of fuel you need and that has been added to your ship.
 
 The Go/No-Go checks can continue, the person in charge of the "Rocket Equation Double-Checker" stops the launch sequence. Apparently, you forgot to include additional fuel for the fuel you just added.
