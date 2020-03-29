@@ -22,7 +22,7 @@ The module masses can be found [here](https://github.com/pixelrunner/Meraki-ISE-
 
 Upload your script(s)to github, then move on to part 2.
 
-===
+-----
 
 # Part 2
 OK, so you've worked out the amount of fuel you need and that has been added to your ship.
