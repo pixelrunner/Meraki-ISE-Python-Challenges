@@ -4,6 +4,8 @@ The spreadsheet consists of rows of apparently-random numbers. To make sure the 
 
 For example, given the following spreadsheet:
 
+| Value 1 | Value 2 | Value 3 | etc. | 
+| --- | --- | --- | --- |
 | 5 | 1 | 9 | 5 |
 | 7 | 5 | 3 |
 | 2 | 4 | 6 | 8 |
