@@ -19,7 +19,7 @@ For example, given the following spreadsheet:
 
 Send John your answer, upload your code to github, and move on to the second part.
 
-# Part 2:
+# Part 2: Working out the evenly divisble numbers
 
 Actually, the user that had the corrupted spreadsheet doesn't really care about the checksum (as he is a standard user, they just wants it to work). All the user wanted is some information about the evenly divisible values in the spreadsheet. Unfortunately, none of us are equipped for that kind of calculation!
 
