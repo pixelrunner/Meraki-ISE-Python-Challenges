@@ -1,4 +1,4 @@
-Come help us repair the corruption in this spreadsheet!!!
+# Part 1: Repair the corruption in this spreadsheet!
 
 The spreadsheet consists of rows of apparently-random numbers. To make sure the recovery process is on the right track, they need you to calculate the spreadsheet's checksum. For each row, determine the difference between the largest value and the smallest value; the checksum is the sum of all of these differences.
 
@@ -15,4 +15,8 @@ The second row's largest and smallest values are 7 and 3, and their difference i
 The third row's difference is 6.
 In this example, the spreadsheet's checksum would be 8 + 4 + 6 = 18.
 
-What is the checksum for the spreadsheet in your puzzle input?
+**What is the checksum for the spreadsheet in your puzzle input?**
+
+Send John your answer, upload your code to github, and move on to the second part.
+
+# Part 2:
