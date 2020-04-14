@@ -21,7 +21,7 @@ Send John your answer, upload your code to github, and move on to the second par
 
 # Part 2: Working out the evenly divisible numbers
 
-Actually, the user that had the corrupted spreadsheet doesn't really care about the checksum (as he is a standard user, they just wants it to work). All the user wanted is some information about the evenly divisible values in the spreadsheet. Unfortunately, none of us are equipped for that kind of calculation!
+Actually, the user that had the corrupted spreadsheet doesn't really care about the checksum (as he is a standard user, they just want it to work). All the user wanted is some information about the evenly divisible values in the spreadsheet. Unfortunately, none of us are equipped for that kind of calculation!
 
 The goal is to find the only two numbers in each row where one evenly divides the other - that is, where the result of the division operation is a whole number. They would like you to find those numbers on each line, divide them, and add up each line's result.
 
