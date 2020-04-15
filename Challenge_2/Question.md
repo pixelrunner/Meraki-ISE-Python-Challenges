@@ -15,6 +15,8 @@ For example, given the following spreadsheet:
 - The third row's difference is 6.
 - In this example, the spreadsheet's checksum would be 8 + 4 + 6 = 18.
 
+The .tsv spreadsheet can be found [here](https://github.com/pixelrunner/Meraki-ISE-Python-Challenges/blob/master/Challenge_2/spreadsheet.tsv).
+
 **What is the checksum for the spreadsheet in your puzzle input?**
 
 Send John your answer, upload your code to github, and move on to the second part.
