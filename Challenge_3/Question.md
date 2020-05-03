@@ -13,11 +13,13 @@ Each square on the grid is allocated in a spiral pattern starting at a location 
 | 21 | 22 | 23 | ---> | ... |
 
 
-|         |            |   |
-| ------------- | ------------- | ----- |
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+|         |            |   |            |   |
+| ------------- | ------------- | ----- | ------------- | ----- |
+| col 3 is      | right-aligned | $1600 | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 | right-aligned | $1600 |
+| zebra stripes | are neat      |    $1 | right-aligned | $1600 |
+| zebra stripes | are neat      |    $1 | right-aligned | $1600 |
+| zebra stripes | are neat      |    $1 | right-aligned | $1600 |
 
 
 The Fuel Counter-Upper needs to know the total fuel requirement. To find it, individually calculate the fuel needed for the mass of each module (your puzzle input), then add together all the fuel values.
