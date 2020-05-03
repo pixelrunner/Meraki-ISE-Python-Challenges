@@ -10,6 +10,19 @@ Each square on the grid is allocated in a spiral pattern starting at a location 
 | 18 | 5 | 4 | 3 | 12 |
 | 19 | 6 | 1 | 2 | 11 |
 | 20 | 7 | 8 | 9 | 10 |
+| 21 | 22 | 23 | ---> | ... |
+
+
+\begin{table}[]
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+17 & 16 & 15 & 14   & 13  \\ \hline
+18 & 5  & 4  & 3    & 12  \\ \hline
+19 & 6  & 1  & 2    & 11  \\ \hline
+20 & 7  & 8  & 9    & 10  \\ \hline
+21 & 22 & 23 & ---> & ... \\ \hline
+\end{tabular}
+\end{table}
 
 
 The Fuel Counter-Upper needs to know the total fuel requirement. To find it, individually calculate the fuel needed for the mass of each module (your puzzle input), then add together all the fuel values.
