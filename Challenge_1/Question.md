@@ -22,6 +22,8 @@ The module masses can be found [here](https://github.com/pixelrunner/Meraki-ISE-
 
 Upload your script(s)to github, and send your answer to John on teams (don't put it in the team chat)! Then move on to part 2.
 
+The answer can be found [here](https://github.com/pixelrunner/Meraki-ISE-Python-Challenges/blob/master/Challenge_1/Answer_p1.md)
+
 -----
 
 # Part 2
@@ -42,3 +44,5 @@ For example:
 What is the sum of the fuel requirements for all of the modules on your spacecraft when also taking into account the mass of the added fuel? (Calculate the fuel requirements for each module separately, then add them all up at the end.)
 
 Upload your script(s)to github (don't worry if it's part of the "part 1" script), and relax; safe in the knowledge you now have enough fuel to take off.
+
+The answer can be found [here](https://github.com/pixelrunner/Meraki-ISE-Python-Challenges/blob/master/Challenge_1/Answer_p2.md)
