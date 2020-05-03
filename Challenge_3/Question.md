@@ -4,22 +4,14 @@ You come across an experimental new kind of memory stored on an infinite two-dim
 
 Each square on the grid is allocated in a spiral pattern starting at a location marked 1 and then counting up while spiraling outward. For example, the first few squares are allocated like this:
 
-| A | B | C | D | E |
-| --- | --- | --- | --- |
-| 17 | 16 | 15 | 14 | 13 |
-| 18 | 5 | 4 | 3 | 12 |
-| 19 | 6 | 1 | 2 | 11 |
-| 20 | 7 | 8 | 9 | 10 |
-| 21 | 22 | 23 | ---> | ... |
-
 
 |         |            |   |            |   |            |   |
 | ------------- | ------------- | ----- | ------------- | ----- | ------------- | ----- |
-|         | col 3 is      | right-aligned | $1600 | right-aligned | $1600 |         |
-|         | col 2 is      | centered      |   $12 | right-aligned | $1600 |         |
-|         | zebra stripes | are neat      |    $1 | right-aligned | $1600 |         |
-|         | zebra stripes | are neat      |    $1 | right-aligned | $1600 |         |
-|         | zebra stripes | are neat      |    $1 | right-aligned | $1600 |         |
+|         | 15      | 14 | 13 | right-aligned | $1600 |         |
+|         | 16      | 5      |   4 | 3 | 12 |         |
+|         | 17 | 6      |    1 | 2 | 11 |         |
+|         | 18 | 7      |    8 | 9 | 10 |         |
+|         | 19 | 20      |   21 | 22 | 23 |         |
 |         |            |   |            |   |
 
 The Fuel Counter-Upper needs to know the total fuel requirement. To find it, individually calculate the fuel needed for the mass of each module (your puzzle input), then add together all the fuel values.
