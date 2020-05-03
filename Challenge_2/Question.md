@@ -19,7 +19,7 @@ The .tsv spreadsheet can be found [here](https://github.com/pixelrunner/Meraki-I
 
 **What is the checksum for the spreadsheet in your puzzle input?**
 
-Send John your answer, upload your code to github, and move on to the second part.
+The answer can be found [here](https://github.com/pixelrunner/Meraki-ISE-Python-Challenges/blob/master/Challenge_2/Answer_p1.md)
 
 # Part 2: Working out the evenly divisible numbers
 
@@ -42,6 +42,6 @@ For example, given the following spreadsheet:
 
 **What is the total sum of each row's result from the tsv spreadsheet?**
 
-Send John your answer and update your code in gitbhub.
+The answer can be found [here](https://github.com/pixelrunner/Meraki-ISE-Python-Challenges/blob/master/Challenge_2/Answer_p2.md)
 
 Challenge 2 is completed! Well Done!
