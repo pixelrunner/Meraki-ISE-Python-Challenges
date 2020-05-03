@@ -20,8 +20,6 @@ What is the sum of the fuel requirements for all of the modules on your spacecra
 
 The module masses can be found [here](https://github.com/pixelrunner/Meraki-ISE-Python-Challenges/blob/master/Challenge_1/Module_masses.txt).
 
-Upload your script(s)to github, and send your answer to John on teams (don't put it in the team chat)! Then move on to part 2.
-
 The answer can be found [here](https://github.com/pixelrunner/Meraki-ISE-Python-Challenges/blob/master/Challenge_1/Answer_p1.md)
 
 -----
