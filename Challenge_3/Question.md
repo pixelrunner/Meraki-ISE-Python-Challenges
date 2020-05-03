@@ -1,4 +1,4 @@
-# Challenge 3: Spiral Memory
+# Part 1: Spiral Memory
 
 You come across an experimental new kind of memory stored on an infinite two-dimensional grid.
 
@@ -28,20 +28,23 @@ For example:
 -----
 
 # Part 2
-OK, so you've worked out the amount of fuel you need and that has been added to your ship.
+As a stress test on the system, the programs here clear the grid and then store the value 1 in square 1. Then, in the same allocation order as shown above, they store the sum of the values in all adjacent squares, including diagonals.
 
-The Go/No-Go checks can continue, the person in charge of the "Rocket Equation Double-Checker" stops the launch sequence. Apparently, you forgot to include additional fuel for the fuel you just added.
+So, the first few squares' values are chosen as follows:
 
-Fuel itself requires fuel just like a module - take its mass, divide by three, round down, and subtract 2. However, **that fuel also requires fuel, and that fuel requires fuel, and so on**. Any mass that would require negative fuel should instead be treated as if it requires zero fuel; the remaining mass, if any, is outside the scope of this calculation.
+- Square 1 starts with the value 1.
+- Square 2 has only one adjacent filled square (with value 1), so it also stores 1.
+- Square 3 has both of the above squares as neighbors and stores the sum of their values, 2.
+- Square 4 has all three of the aforementioned squares as neighbors and stores the sum of their values, 4.
+- Square 5 only has the first and fourth squares as neighbors, so it gets the value 5.
+- Once a square is written, its value does not change. Therefore, the first few squares would receive the following values:
 
-**So, for each module mass, calculate its fuel and add it to the total. Then, treat the fuel amount you just calculated as the input mass and repeat the process, continuing until a fuel requirement is zero or negative.**
 
-For example:
-
-- A module of mass 14 requires 2 fuel. This fuel requires no further fuel (2 divided by 3 and rounded down is 0, which would call for a negative fuel), so the total fuel required is still just 2.
-- At first, a module of mass 1969 requires 654 fuel. Then, this fuel requires 216 more fuel (654 / 3 - 2). 216 then requires 70 more fuel, which requires 21 fuel, which requires 5 fuel, which requires no further fuel. So, the total fuel required for a module of mass 1969 is 654 + 216 + 70 + 21 + 5 = 966.
-- The fuel required by a module of mass 100756 and its fuel is: 33583 + 11192 + 3728 + 1240 + 411 + 135 + 43 + 12 + 2 = 50346.
-
-What is the sum of the fuel requirements for all of the modules on your spacecraft when also taking into account the mass of the added fuel? (Calculate the fuel requirements for each module separately, then add them all up at the end.)
-
-Upload your script(s)to github (don't worry if it's part of the "part 1" script), and relax; safe in the knowledge you now have enough fuel to take off.
+|         |            |   |            |   |            |   |
+| ------------- | ------------- | ----- | ------------- | ----- | ------------- | ----- |
+|         | 147      | 142 | 133 | 122 | 59 |         |
+|         | 304      | 5      |   4 | 2 | 57 |         |
+|         | 330 | 10      |    1 | 1 | 54 |         |
+|         | 351 | 11      |    23 | 25 | 26 |         |
+|         | 362 | 704      |   806 | ---> | ... |         |
+|         |            |   |            |   |
