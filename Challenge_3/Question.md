@@ -48,3 +48,5 @@ So, the first few squares' values are chosen as follows:
 |         | 351 | 11      |    23 | 25 | 26 |         |
 |         | 362 | 704      |   806 | ---> | ... |         |
 |         |            |   |            |   |
+
+What is the first value written that is larger than **277678**?
