@@ -9,6 +9,7 @@ You need some basic tools installed. Click [here](https://github.com/pixelrunner
 Each fortnight, a new challenge will appear here:
 * [Challenge 1: Rocket Fuel](https://github.com/pixelrunner/Meraki-ISE-Python-Challenges/blob/master/Challenge_1/Question.md)
 * [Challenge 2: Spreadsheet Woes](https://github.com/pixelrunner/Meraki-ISE-Python-Challenges/blob/master/Challenge_2/Question.md)
+* [Challenge 3: Spiral Memory](https://github.com/pixelrunner/Meraki-ISE-Python-Challenges/blob/master/Challenge_3/Question.md)
 
 
 ---
