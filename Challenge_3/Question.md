@@ -13,8 +13,8 @@ Each square on the grid is allocated in a spiral pattern starting at a location 
 | 21 | 22 | 23 | ---> | ... |
 
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
+|         |            |   |
+| ------------- | ------------- | ----- |
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
